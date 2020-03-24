@@ -34,7 +34,7 @@
                 <h2>แสดงผลข้อมูล EGAT MQTT logger (0.1a)</h2>
                 <table data-toggle="table" data-search="true" data-show-columns="true" data-show-refresh="true"
                     data-page-list="[10, 25, 50, 100, ALL]" data-show-pagination-switch="true" data-pagination="true"
-                    data-url="/notes">
+                    data-url="/notes" data-auto-refresh="true" data-auto-refresh-silent = "true" data-auto-refresh-interval=3>
                     <thead>
                         <tr>
                             <%# auto gen header %>
@@ -60,8 +60,9 @@
         integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
         crossorigin="anonymous"></script>
     <script src="http://issues.wenzhixin.net.cn/bootstrap-table/assets/bootstrap/js/bootstrap.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.12.1/bootstrap-table.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.12.1/locale/bootstrap-table-th-TH.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.12.1/bootstrap-table.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.12.1/locale/bootstrap-table-th-TH.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.12.1/extensions/auto-refresh/bootstrap-table-auto-refresh.min.js"></script>
 </body>
 
 </html>
